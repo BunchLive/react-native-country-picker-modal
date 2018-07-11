@@ -41,8 +41,8 @@ export default StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     fontSize: 30,
-    width: 30,
-    height: 30,
+    width: 40,
+    height: 35,
     borderWidth: 1 / PixelRatio.get(),
     borderColor: 'transparent',
     backgroundColor: 'transparent'
@@ -56,9 +56,7 @@ export default StyleSheet.create({
   },
   itemCountryFlag: {
     justifyContent: 'center',
-    alignItems: 'center',
-    height: '7%',
-    width: '15%'
+    alignItems: 'center'
   },
   itemCountryName: {
     justifyContent: 'space-between',
@@ -104,5 +102,11 @@ export default StyleSheet.create({
     height: 24,
     width: 24,
     resizeMode: 'contain'
+  },
+  buttonStyle: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    opacity: 0.7
   }
 })
